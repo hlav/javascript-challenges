@@ -10,7 +10,7 @@ describe("helloWorld", function() {
 
 describe("hello", function() {
 
-  xit("returns Hello plus the string you pass it", function() {
+  it("returns Hello plus the string you pass it", function() {
     expect(yourCode.hello('Frog')).toEqual("Hello Frog");
   });
 
@@ -18,11 +18,11 @@ describe("hello", function() {
 
 describe("shout", function() {
 
-  xit("returns Hello plus the string you pass it, upper case", function() {
+  it("returns Hello plus the string you pass it, upper case", function() {
     expect(yourCode.shout('Frog')).toEqual("Hello FROG");
   });
 
-  xit("returns Hello plus the string you pass it, upper case", function() {
+  it("returns Hello plus the string you pass it, upper case", function() {
     expect(yourCode.shout('Fox')).toEqual("Hello FOX");
   });
 
@@ -30,11 +30,11 @@ describe("shout", function() {
 
 describe("whisper", function() {
 
-  xit("returns Hello plus the string you pass it, lower case", function() {
+  it("returns Hello plus the string you pass it, lower case", function() {
     expect(yourCode.whisper('Frog')).toEqual("Hello frog");
   });
 
-  xit("returns Hello plus the string you pass it, lower case", function() {
+  it("returns Hello plus the string you pass it, lower case", function() {
     expect(yourCode.whisper('FoX')).toEqual("Hello fox");
   });
 
@@ -42,7 +42,7 @@ describe("whisper", function() {
 
 describe("separate", function() {
 
-  xit("returns the characters of the given word as an array", function() {
+  it("returns the characters of the given word as an array", function() {
     expect(yourCode.separate('jumbo')).toEqual(['j', 'u', 'm', 'b', 'o']);
   });
 
@@ -66,7 +66,7 @@ describe("reverseJoin", function() {
 
 describe("reverseJoinCompact", function() {
 
-  xit("returns the characters of the given array, reversed and joined by nothing", function() {
+  it("returns the characters of the given array, reversed and joined by nothing", function() {
     expect(yourCode.reverseJoinCompact(['j', 'u', 'm', 'b', 'o'])).toEqual('obmuj');
   });
 
@@ -78,11 +78,11 @@ describe("reverseJoinCompact", function() {
 
 describe("backwardsDay", function() {
 
-  xit("returns Hello plus the string you pass it, reversed", function() {
+  it("returns Hello plus the string you pass it, reversed", function() {
     expect(yourCode.backwardsDay('Frog')).toEqual("Hello gorF");
   });
 
-  xit("returns Hello plus the string you pass it, reversed", function() {
+  it("returns Hello plus the string you pass it, reversed", function() {
     expect(yourCode.backwardsDay('FraggleRock')).toEqual("Hello kcoRelggarF");
   });
 
